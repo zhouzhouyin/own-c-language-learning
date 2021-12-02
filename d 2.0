@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+{
+	int price =0;
+	printf("please inssue (yuan):");
+	scanf("%d",&price);
+	
+	int change = 100-price;
+	printf("reback%dyuan.\n",change);
+	
+	return 0;
+}
+	
